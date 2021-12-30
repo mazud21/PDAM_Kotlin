@@ -1,8 +1,7 @@
-package com.hmazud.pdam_kotlin.User
+package com.hmazud.pdam_kotlin.View.User
 
 import android.app.Activity
 import android.content.Intent
-import android.graphics.Bitmap
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore

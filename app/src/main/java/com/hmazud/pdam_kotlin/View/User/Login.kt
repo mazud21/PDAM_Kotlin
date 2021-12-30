@@ -1,4 +1,4 @@
-package com.hmazud.pdam_kotlin.User
+package com.hmazud.pdam_kotlin.View.User
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import android.widget.Toast
-import com.hmazud.pdam_kotlin.Dashboard
+import com.hmazud.pdam_kotlin.View.Dashboard
 import com.hmazud.pdam_kotlin.Local.SharePref
 import com.hmazud.pdam_kotlin.NetworkService.ApiInterface
 import com.hmazud.pdam_kotlin.NetworkService.RetrofitInstance
@@ -64,7 +64,7 @@ class Login : AppCompatActivity() {
                         SharePref.alamat = user!!.data?.alamat.toString()
                         SharePref.password = user!!.data?.password.toString()
 
-                        val intent = Intent(this@Login,Dashboard::class.java)
+                        val intent = Intent(this@Login, Dashboard::class.java)
                         startActivity(intent)
                         finish()
                     } else {

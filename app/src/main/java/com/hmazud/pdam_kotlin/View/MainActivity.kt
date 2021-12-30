@@ -1,12 +1,12 @@
-package com.hmazud.pdam_kotlin
+package com.hmazud.pdam_kotlin.View
 
-import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
-import com.hmazud.pdam_kotlin.User.Login
-import com.hmazud.pdam_kotlin.User.Register
+import com.hmazud.pdam_kotlin.R
+import com.hmazud.pdam_kotlin.View.User.Login
+import com.hmazud.pdam_kotlin.View.User.Register
 
 class MainActivity : AppCompatActivity() {
 

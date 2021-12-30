@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".Dashboard">
+    tools:context=".View.Dashboard">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -79,6 +79,21 @@
                 />
 
         </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"/>
+
+        <Button
+            android:id="@+id/btnInfoMasalah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Info Masalah"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="16dp"/>
 
         <Button
             android:id="@+id/btnLogout"
