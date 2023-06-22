@@ -8,7 +8,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 class RetrofitInstance {
     companion object {
-        private const val BASE_URL: String = "http://www.hmazud.web.id/api_controller/"
+        private const val BASE_URL: String = "https://test.hmazud.web.id/api_controller/"
 
         fun getRetrofitInstance(): Retrofit {
             val gson = GsonBuilder().setLenient().create()
